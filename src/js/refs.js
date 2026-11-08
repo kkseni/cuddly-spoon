@@ -4,7 +4,7 @@ export const productsList = document.querySelector('.products');
 export const loadMoreBtn = document.querySelector('.load-more-btn');
 export const errTitle = document.querySelector('.not-found__title');
 export const errDescr = document.querySelector('.not-found__descriptino');
-export const scrollUpBtn = document.querySelector('.class="scroll-top-btn');
+// export const scrollUpBtn = document.querySelector('.class="scroll-top-btn');
 
 //header//
 export const searchForm = document.querySelector('.search-form');
