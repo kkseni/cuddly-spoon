@@ -21,10 +21,8 @@ export async function fetchProductsALL(page = 1, limit = PER_PAGE) {
   });
   return data;
 
-}export async function fetchProductsByCategory(query, categoryName) {
-  const { data } = await axios.get(`${BASE_URL}${ENDPOINTS.PRODUCTS}/category/${categoryName}`, {
-    params:{query: query},
-  });
+}export async function fetchProductsByCategory(categoryName) {
+  const { data } = await axios.get(`${BASE_URL}${ENDPOINTS.PRODUCTS}/category/${categoryName}`, );
   return data;
 }
 
